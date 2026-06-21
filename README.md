@@ -1,89 +1,103 @@
 # Cyril SLUCKI
 
-Fondateur de CyberWorkers.com en 1996, je travaille aujourd’hui sur BouclePro : une plateforme d’entraide professionnelle augmentée par l’IA.
+Founder of **CyberWorkers.com** in 1996, I am now building **BouclePro**: a peer-assisted intelligence platform designed to help people clarify needs, ask for help, offer help, share practical skills, and rebuild professional momentum through trusted communities.
 
-Mon fil conducteur est simple : utiliser le numérique pour remettre les personnes en lien, en mouvement et en capacité d’agir.
+My guiding idea is simple: digital tools should not isolate people or replace human relationships. They should help people reconnect, take action, and regain the ability to move forward.
 
 ## BouclePro
 
-BouclePro n’est pas un réseau social de plus, ni une marketplace froide, ni un simple outil IA.
+BouclePro is not another social network, not a cold marketplace, and not just an AI tool.
 
-C’est une plateforme pensée pour aider des personnes, des indépendants, des demandeurs d’emploi, des entrepreneurs et des organisations à créer des boucles d’entraide utiles.
+It is a platform designed to help individuals, freelancers, job seekers, entrepreneurs, trainers, associations, and organizations create useful loops of mutual support.
 
-Une personne ne rejoint pas seulement une plateforme.
-Elle entre dans une boucle.
+A person does not simply join a platform.
+They enter a **Loop**.
 
-Une boucle est un espace humain, contextualisé, orienté action, organisé autour d’un objectif réel : retrouver de l’emploi, lancer son activité, sortir de l’isolement, apprendre à vendre, créer un projet ou reconstruire une dynamique professionnelle.
+A Loop is a human, contextual, action-oriented space organized around a real objective: finding work, launching an activity, learning how to sell, escaping isolation, developing a project, sharing knowledge, or rebuilding a professional dynamic.
 
-## Ce que je construis
+## What I am building
 
-- Une plateforme Laravel multi-tenant.
-- Des Loops pour organiser l’entraide et la coopération.
-- Des Interactions structurées : demandes d’aide, échanges, services, messages, avis, workflows.
-- Une IA utile, sobre et validée par l’humain.
-- Une interface mobile-first, calme, claire, non anxiogène.
-- Un système pensé pour la progression réelle, pas pour la captation d’attention.
+BouclePro combines:
 
-## Philosophie produit
+* a multi-organization Laravel application;
+* scoped communities called Organizations;
+* Loops to structure mutual support, learning, and cooperation;
+* structured Interactions: help requests, offers, exchanges, messages, recommendations, reviews, and AI-assisted workflows;
+* useful, sober AI that remains validated by humans;
+* a calm, mobile-first interface designed to reduce digital anxiety;
+* a system focused on real progress, not attention capture.
 
-BouclePro cherche à réduire l’anxiété numérique.
+BouclePro is based on a simple principle:
+**AI can help clarify and structure information, but humans remain responsible for trust, guidance, validation, and transmission.**
 
-L’objectif n’est pas de produire plus de bruit, plus de notifications ou plus de contenu automatisé.
+## Product philosophy
 
-L’objectif est d’aider les personnes à :
+BouclePro aims to reduce digital anxiety.
 
-- formuler une demande claire ;
-- trouver le bon cercle d’entraide ;
-- reprendre confiance ;
-- transformer une intention floue en prochaine action utile ;
-- avancer avec d’autres.
+The goal is not to generate more noise, more notifications, or more automated content.
 
-L’IA n’est pas là pour remplacer les humains.
-Elle sert à clarifier, reformuler, orienter, synthétiser et faciliter l’action.
+The goal is to help people:
 
-Rien d’important n’est envoyé sans validation humaine.
+* express a clear need;
+* find the right circle of support;
+* regain confidence;
+* transform a vague intention into a useful next action;
+* move forward with others.
 
-## Architecture produit
+AI is not used to replace people.
+It is used to clarify, rephrase, guide, summarize, and facilitate action.
 
-La structure cible de BouclePro repose sur des concepts simples :
+Nothing important should move forward without human validation.
 
-Platform  
-→ Organization  
-→ Loop  
-→ Member  
+## Product architecture
+
+The target structure of BouclePro is intentionally simple:
+
+```text
+Platform
+→ Organization
+→ Loop
+→ Member
 → Interaction
+```
 
-Une Organization est la frontière métier, sécurité et administration.
+An **Organization** is the business, security, and administration boundary.
 
-Une Loop est un contexte relationnel et collaboratif à l’intérieur d’une Organization.
+A **Loop** is a relational and collaborative context inside an Organization.
 
-Un Member participe à une ou plusieurs Loops.
+A **Member** can participate in one or several Loops.
 
-Une Interaction représente une activité utile : message, demande d’aide, échange, proposition, avis ou workflow IA.
+An **Interaction** represents a useful activity: a message, a help request, an offer, a recommendation, a review, a service exchange, or an AI-assisted workflow.
 
-## Projet principal
+## Main projects
 
-- `entraide` : application Laravel principale de BouclePro.
-- `bouclepro.com` : site public du projet.
+* `entraide`: the main Laravel application for BouclePro.
+* `bouclepro.com`: the public website of the project.
 
-## Stack actuelle
+## Current stack
 
-- Laravel
-- PHP
-- Blade
-- Alpine.js
-- Tailwind CSS
-- Livewire
-- PostgreSQL / SQLite
-- Playwright
-- PHPUnit
-- Laravel Cloud
-- Workflow IA multi-agents : ChatGPT, OpenCode, Claude Code, Codex
+* Laravel
+* PHP
+* Blade
+* Alpine.js
+* Tailwind CSS
+* Livewire
+* PostgreSQL / SQLite
+* Playwright
+* PHPUnit
+* Laravel Cloud
+* AI-assisted development workflow: ChatGPT, OpenCode, Claude Code, Codex
 
-## Vision longue
+## Pilot projects
 
-CyberWorkers.com est né à une époque où Internet promettait de libérer le travail.
+BouclePro is currently open to small pilot projects with learning communities, training organizations, associations, research groups, professional networks, and local or international chapters.
 
-BouclePro reprend cette intuition, avec trente ans d’expérience en plus : le numérique ne vaut que s’il aide les humains à mieux coopérer, transmettre, s’entraider et avancer ensemble.
+I would be happy to start with a small, concrete pilot: a limited group, real use cases, clear feedback, and a simple objective — proving that peer-assisted intelligence can create practical value.
 
-BouclePro aide les personnes à ne plus avancer seules.
+## Long-term vision
+
+CyberWorkers.com was born at a time when the Internet promised to transform and liberate work.
+
+BouclePro carries this intuition forward, with thirty years of experience added: digital technology only matters when it helps people cooperate better, transmit knowledge, support each other, and move forward together.
+
+BouclePro helps people stop moving forward alone.
